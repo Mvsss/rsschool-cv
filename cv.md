@@ -12,4 +12,8 @@
  * C++ - basic
  * C# - basic
  * JS - basic
+---
+## Languages
+* Russian - native
+* English - A2
 
