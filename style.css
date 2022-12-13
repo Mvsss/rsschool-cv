@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 * {
   box-sizing: border-box;
 }
- 
 
+p {
+  
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 11px;
+color: #131314;
+
+}
 .cv {
-  position: relative;
+display: flex;
+position: relative;
 width: 612px;
 height: 792px;  
 background: #FFFFFF;
 mix-blend-mode: normal;
 }
 .left {
+  display: block;
   position: absolute;
- 
+  margin-top: 38px;
+  margin-left: 62px;
   
 }
 
@@ -20,38 +33,39 @@ mix-blend-mode: normal;
   position: absolute;
   background: green;
 }
-.name {
-  display: block;
-  position: relative;
-  width: 215px;
-  height: 292px;
-  margin-top: 38px;
-  margin-left: 62px;
-  
-}
 
 .name__h1 {
   width: 115px;
-  font-family: 'Avenir';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 32px;
   line-height: 30px;
   color: #131314;
 }
 .name__photo {
 
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 .name__job {
 width: 38px;
-font-family: 'Avenir';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
-font-size: 18px;
+font-size: 28px;
 line-height: 25px;
 color: #5B8EDD;
 
+}
+.contact__ {
+  display: flex;
+  position: relative;  
+}
+.contact__logo {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
 }
