@@ -5,58 +5,82 @@
 
 p {
   
-  font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 25px;
 line-height: 11px;
 color: #131314;
 
 }
+
 .cv {
 display: flex;
-position: relative;
-width: 612px;
-height: 792px;  
+position: absolute; 
 background: #FFFFFF;
 mix-blend-mode: normal;
 }
-.left {
+
+.contact {
   display: block;
-  position: absolute;
   margin-top: 38px;
   margin-left: 62px;
-  
+  margin-right: 38px;
+
+}
+
+.left {
+  width: 600px;
+  display: block;
+  margin-top: 38px;
+  margin-left: 62px;
+  margin-right: 38px;
+
 }
 
 .right {
-  position: absolute;
-  background: green;
+  display: block;
+  margin-top: 38px;
+  margin-left: 62px;
+  margin-right: 38px;
+}
+
+.name {
+
+display: flex;
+margin-top: 38px;
+margin-left: 62px;
+}
+
+.name__text {
+
+display: block;
+
 }
 
 .name__h1 {
-  width: 115px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
-  line-height: 30px;
+  font-size: 50px;
   color: #131314;
+  margin-left: 100px;
+  margin-bottom: 70px;
 }
 .name__photo {
 
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+  border-radius: 90%;
 }
 .name__job {
-width: 38px;
+line-height: 110%;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
-font-size: 28px;
-line-height: 25px;
+font-size: 40px;
 color: #5B8EDD;
+margin-left: 100px;
 
 }
 .contact__ {
@@ -68,4 +92,51 @@ color: #5B8EDD;
   margin-right: 10px;
   width: 30px;
   height: 30px;
+}
+
+.h2__category {
+  font-family: 'Roboto';
+  font-size: 35px;
+  line-height: 18px;
+  color: #78bef1;
+  padding-top: 20px;
+}
+
+.ul__list {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 150%;
+padding-left: 20px;
+color: #3A3E47;
+}
+
+.exp__job_name {
+margin-top: 30px; 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 38px;
+color: #3A3E47;
+}
+
+.exp__job_date {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 11px;
+color: #3A3E47;
+}
+
+.educ__u {
+  margin-top: 30px; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  color: #3A3E47;
 }
