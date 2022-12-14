@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@media (min-width: 320px) and (max-width: 1100px) 
+{
+  .cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .name {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+}
 * {
   box-sizing: border-box;
 }
@@ -73,7 +87,7 @@ flex-direction: column;
   font-size: 50px;
   color: #131314;
   padding-left: 100px;
-  padding-bottom: 70px;
+  
 }
 .name__photo {
 
@@ -87,7 +101,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 40px;
-color: #ebebeb;
+color: #fcfafa;
 padding-left: 100px;
 
 }
@@ -108,7 +122,7 @@ padding-left: 100px;
   font-family: 'Roboto';
   font-size: 35px;
   line-height: 18px;
-  color: #78bef1;
+  color: #ffeded;
   padding-top: 20px;
 }
 
