@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #9a8ee8;
+}
+
 p {
   
 font-family: 'Roboto';
@@ -24,7 +28,7 @@ header {
 .cv {
 display: flex;
 justify-content: center;
-background: #FFFFFF;
+
 
 }
 
@@ -84,7 +88,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 40px;
-color: #5B8EDD;
+color: #ebebeb;
 margin-left: 100px;
 
 }
@@ -159,7 +163,6 @@ color: #3A3E47;
 
 .code__wrap {
   display: inline-block;
-  padding: 0 20% 5% 0;
   border-radius: 20px;
   background-color: #131314;
 }
@@ -169,4 +172,38 @@ color: #3A3E47;
   font-weight: 400;
   font-size: 15px;
   line-height: 140%;
+}
+
+.navig__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7.5%;
+  list-style-type: none;
+
+}
+
+.navig__li {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+ .navig__ul_picrs {
+  width: 40%;
+
+  
+}
+
+.navig__ul_pic {
+  width: 80%;
+
+}
+
+.h2__footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #282829;
 }
