@@ -89,6 +89,7 @@ justify-content: center;
 .name {
 display: flex;
 align-items: center;
+padding-top: 30px;
 
 }
 
