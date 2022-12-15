@@ -35,7 +35,7 @@
 }
 
 body {
-  background: #c8c0fc;
+  background-color: #c8c0fc;
   margin: 0;
 }
 
@@ -231,7 +231,8 @@ color: #3A3E47;
 
 
  .navig__ul_picrs {
-  width: 90px;
+  width: 100px;
+  height: 100px;
 
   
 }

@@ -11,15 +11,15 @@
 </head>
 <body>
   <header>
-    <section class="name">
+    <div class="name">
       
         <img src="https://avatars.githubusercontent.com/u/108296509?v=4" alt="my_face" class="name__photo">
         <div class="name__text">
           <h1 class="name__h1">Moskalenko Vladimir</h1>
           <h2 class="name__job">Trainee Frontend Developer</h2>
         </div>
-     </section>
-    <section class="contact">
+     </div>
+    <div class="contact">
       <div class="nonee"></div>
       <div class="contact__">
         <a href="https://www.google.com/maps/place/Витебск/@55.1939784,30.1948941,12z/data=!3m1!4b1!4m5!3m4!1s0x46c573e3fc7c7be7:0x430637d0624afff4!8m2!3d55.1926809!4d30.206359" title="Hometown"> <img src="image/hometown.png"  alt="" class="contact__logo"></a>
@@ -33,10 +33,10 @@
         <a href="#" title="Discord"> <img src="image/discord.png"  alt="" class="contact__logo"></a>
         <p>Discord</p>
       </div>
-  </section>
+  </div>
   </header>
   <main class="cv">
-   <section class="left"> 
+   <div class="left"> 
       <div class="skills">
         <h2 class="h2__category">Skills</h2>
         <ul class="ul__list">
@@ -48,23 +48,23 @@
           <li>Figma</li>
         </ul>
       </div>
-      <section class="lang">
+      <div class="lang">
         <h2 class="h2__category">Languages</h2>
         <ul class="ul__list">
           <li>Russian - native</li>
           <li>English - A2</li>
         </ul>
-      </section>
-      <section class="cources">
+      </div>
+      <div class="cources">
         <h2 class="h2__category">Courses</h2>
         <ul class="ul__list">
           <li>RS School JS/FE Pre-School 2022Q4</li>
           <li>Wait...</li>
         </ul>
-      </section>
-   </section>
-   <section class="right">
-    <section class="exp">
+      </div>
+   </div>
+   <div class="right">
+    <div class="exp">
       <h2 class="h2__category">Experience</h2>
       <div class="exp__job">
         <h2 class="exp__job_name">
@@ -78,14 +78,14 @@
         </h2>
         <h3 class="exp__job_date">07/2021 - 10/2021</h3>
       </div>
-    </section>
-    <section class="Education">
+    </div>
+    <div class="Education">
       <h2 class="h2__category">Education</h2>
       <div class="educ">
         <h2 class="educ__u"> Vitebsk State University | Bachelor of Computer Security</h2>
         <h3 class="educ__date">09/2018 - 07/2022</h3>
       </div>
-    <section class="code">
+    <div class="code">
       <h2 class="h2__category">Code Example</h2>
       <div class="code__wrap">
         <pre>
@@ -98,7 +98,7 @@
           if (lengths.includes(0)) {
             return 0
           }
-          for (let i = 0; i < lengths.length - 1; i++) {
+          for (let i = 0; i &lt; lengths.length - 1; i++) {
             if (lengths[i] + 1 !== lengths[i + 1]) {
               return lengths[i] + 1
             }
@@ -108,9 +108,9 @@
         }  </code>
       </pre>
       </div>
-    </section>
-    </section>
-   </section>
+    </div>
+    </div>
+   </div>
   </main>
   <footer class="footer"> 
     <nav class="navig">
@@ -122,7 +122,7 @@
           <a href="https://www.youtube.com/@RollingScopesSchool"><img src="image/youtube.png" alt="Youtube" class="navig__ul_pic"></a>
         </li>
         <li class="navig__li">
-          <a href="https://rs.school/js" class="nav__li_a"><img src="image/rsschool.png" alt="Rs School" class="navig__ul_picrs"></a>
+          <a href="https://rs.school/js" class="nav__li_a"><img src="image/rsschool.svg" alt="Rs School" class="navig__ul_picrs"></a>
         </li>
         <li class="navig__li">
           <h2 class="h2__footer"> Created in 2022 </h2>
